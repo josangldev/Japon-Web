@@ -42,6 +42,22 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
   @apply font-sans;
 }
+
+
+@layer utilities {
+
+  .bg-dark {
+    @apply bg-gray-900;
+  }
+
+  .text-dark-base {
+    @apply text-gray-100;
+  }
+
+}
+
+
