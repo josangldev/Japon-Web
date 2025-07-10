@@ -38,8 +38,58 @@
         </nav>
       </div>
     </header>
-    <main>
-      
+    <main class="container mx-auto p-4 md:p8 flex flex-col gap-10 grow">
+      <section class="flex flex-col lg:flex-row gap-8">
+        <article class="content-article animate-fadeIn">
+          <picture>
+            <source srcset="src/assets/images/koi-desktop.webp" media="(min-width: 1024px)">
+            <source srcset="src/assets/images/koi-tablet.webp" media="(min-width: 768px)">
+            <img src="src/assets/images/koi-mobile.webp" alt="Koi" class="article-img animate-fadeIn" loading="lazy">
+          </picture>
+          <div class="p-8 flex flex-col flex-1">
+            <h2 class="section-title animate-fadeIn">Fiestas que iluminan Japón</h2>
+            <hr class="hr-center-sm border-pink-100 mb-4">
+            <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-4">
+              Sumérgete en un mundo de colores, música y rituales ancestrales donde
+              cada festival japonés cuenta una historia milenaria.
+            </p>
+            <p class="text-gray-700 dark:text-white leadin-relaxed text-lg mb-6">
+              Desde vibrantes procesiones hasta ceremonias llenas de simbolismo, estos eventos celebran la esencia cultural y espiritual de Japón, invitándote a vivir tradiciones que han perdurado por siglos.
+            </p>
+            <a class="inlinex-flex items-center justify-center bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-5 rounded-lg shadow-md transition-colors text-lg w-fit btn-bounce" href="events.html">Siente Japón
+              <img class="ml-3 w-8 h-8" src="src/assets/icons/eventos.webp" alt="Eventos" loading="lazy">
+            </a>
+          </div>
+        </article>
+        <article class="content-article animate-fadeIn">
+          <picture>
+            <source srcset="src/assets/images/ramen-desktop.webp" media="(min-width: 1024px)">
+            <source srcset="src/assets/images/ramen-tablet.webp" media="(min-width: 768px)">
+            <img src="src/assets/images/ramen-mobile.webp" alt="Ramen" class="article-img animate-fadeIn" loading="lazy" />
+          </picture>
+          <div class="p-8 flex flex-col flex-1">
+            <h2 class="section-title animate-fadeIn">Un viaje al paladar nipón</h2>
+            <hr class="hr-center-sm border-blue-100 mb-4" />
+            <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-4">
+              Explora un universo de sabores únicos donde cada plato es una obra de arte que despierta los sentidos.
+            </p>
+            <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-6">
+              La cocina japonesa combina ingredientes frescos, técnicas ancestrales y una pasión por el equilibrio perfecto, ofreciendo una experiencia culinaria que trasciende el simple acto de comer para convertirse en una celebración cultural.
+            </p>
+            <a class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-lg shadow-md transition-colors text-lg w-fit btn-bounce" href="comidas.html">
+              Siente Japón
+              <img class="ml-3 w-8 h-8" src="src/assets/icons/ramen.webp" alt="comidas" loading="lazy" />
+            </a>
+          </div>
+        </article>
+      </section>
     </main>
+    <footer class="bg-sakura dark:bg-dark-header text-tori dark:text-white mt-12 shadow-inner animate-fadeIn">
+      <div class="w-full flex flex-row justify-between items-center text-sm p-4">
+        <a href="https://github.com/JosanglDev" class="transition-colors font-semibold underline-anim" target="_blank" rel="noopener">GitHub</a>
+        <p class="font-light mb-0 mx-auto">&copy; JosanglDev</p>
+        <a href="https://www.linkedin.com/in/jos%C3%A9-antonio-garc%C3%ADa-l%C3%B3pez-4ba263347/" class="transition-colors font-semibold underline-anim" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </footer>
   </body>
 </html>
