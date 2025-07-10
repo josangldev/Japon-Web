@@ -18,10 +18,10 @@
     </style>
   </head>
   <body class="main-body bg-white dark:bg-gray-900 text-tori dark:text-white min-h-screen flex flex-col duration-500">
-    <header class="main-header bg-sakura dark:bg-dark-header text-tori dark:text-shadow-md sticky top-0 z-50">
-      <div class="flex justify-between ites-center p-4 w-full">
-        <h1 class="text-4xl font-extrabold tracking-wider drop-shadow-lg text-tori dark:text-white">Japón</h1>
-        <button id="dark-toggle" class="ml-4 text-2xl p-2 transition text-black dark:text-yellow-400 duration-300" title="Alternar modo oscuro" aria-label="Alternar modo oscuro">
+    <header class="main-header bg-sakura dark:bg-dark-header text-tori dark:text-shadow-md sticky top-0 z-50 text-base">
+      <div class="flex flex-row items-center justify-between p-4 w-full gap-2">
+        <h1 class="text-3xl font-extrabold tracking-wider drop-shadow-lg text-tori dark:text-white">Japón</h1>
+        <button id="dark-toggle" class="ml-4 text-base p-2 transition text-black dark:text-yellow-400 duration-300" title="Alternar modo oscuro" aria-label="Alternar modo oscuro">
           <svg id="icon-moon" class="w-7 h-7 block dark:hidden" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z"/></svg>
           <svg id="icon-sun" class="w-7 h-7 hidden dark:block" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 1v2m0 18v2m11-11h-2M3 12H1m16.95 7.07l-1.41-1.41M6.34 6.34L4.93 4.93m12.02 0l-1.41 1.41M6.34 17.66l-1.41 1.41"/></svg>
         </button>
@@ -29,7 +29,7 @@
           <button type="button" class="menu-btn md:hidden" id="menu-toggle">
             <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
           </button>
-          <div id="menu-content" class="hidden md:flex md:flex-row gap-8 bg-sakura text-tori rounded-lg shadow-lg p-4 border border-tori absolute right-4 top-16 z20 md:static md:bg transparent md:text-tori md:shadow-none md:p-0 md:border-0 transition-all duration-300 animate-fadeIn">
+          <div id="menu-content" class="hidden md:flex md:flex-row gap-8 bg-sakura md:bg-transparent text-tori rounded-lg shadow-lg p-4 border border-tori absolute right-4 top-16 z20 md:static md:text-tori md:shadow-none md:p-0 md:border-0 transition-all duration-300 animate-fadeIn">
             <a href="index.html" class="nav-link">Inicio</a>
             <a href="events.html" class="nav-link">Eventos</a>
             <a href="meals.html" class="nav-link">Comidas</a>
@@ -46,17 +46,17 @@
             <source srcset="src/assets/images/koi-tablet.webp" media="(min-width: 768px)">
             <img src="src/assets/images/koi-mobile.webp" alt="Koi" class="article-img animate-fadeIn" loading="lazy">
           </picture>
-          <div class="p-8 flex flex-col flex-1">
+          <div class="p-2 flex flex-col flex-1 items-center text-center">
             <h2 class="section-title animate-fadeIn">Fiestas que iluminan Japón</h2>
             <hr class="hr-center-sm border-pink-100 mb-4">
-            <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-4">
+            <p class="text-gray-700 dark:text-white leading-relaxed text-base mb-4">
               Sumérgete en un mundo de colores, música y rituales ancestrales donde
               cada festival japonés cuenta una historia milenaria.
             </p>
-            <p class="text-gray-700 dark:text-white leadin-relaxed text-lg mb-6">
+            <p class="text-gray-700 dark:text-white leadin-relaxed text-base mb-6">
               Desde vibrantes procesiones hasta ceremonias llenas de simbolismo, estos eventos celebran la esencia cultural y espiritual de Japón, invitándote a vivir tradiciones que han perdurado por siglos.
             </p>
-            <a class="inlinex-flex items-center justify-center bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-5 rounded-lg shadow-md transition-colors text-lg w-fit btn-bounce" href="events.html">Siente Japón
+            <a class="inline-flex items-center justify-center bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-5 rounded-lg shadow-md transition-colors text-lg w-fit btn-bounce" href="events.html">Siente Japón
               <img class="ml-3 w-8 h-8" src="src/assets/icons/eventos.webp" alt="Eventos" loading="lazy">
             </a>
           </div>
@@ -67,13 +67,13 @@
             <source srcset="src/assets/images/ramen-tablet.webp" media="(min-width: 768px)">
             <img src="src/assets/images/ramen-mobile.webp" alt="Ramen" class="article-img animate-fadeIn" loading="lazy" />
           </picture>
-          <div class="p-8 flex flex-col flex-1">
+          <div class="p-2 flex flex-col flex-1 items-center text-center">
             <h2 class="section-title animate-fadeIn">Un viaje al paladar nipón</h2>
             <hr class="hr-center-sm border-blue-100 mb-4" />
-            <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-4">
+            <p class="text-gray-700 dark:text-white leading-relaxed text-base mb-4">
               Explora un universo de sabores únicos donde cada plato es una obra de arte que despierta los sentidos.
             </p>
-            <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-6">
+            <p class="text-gray-700 dark:text-white leading-relaxed text-base mb-6">
               La cocina japonesa combina ingredientes frescos, técnicas ancestrales y una pasión por el equilibrio perfecto, ofreciendo una experiencia culinaria que trasciende el simple acto de comer para convertirse en una celebración cultural.
             </p>
             <a class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-lg shadow-md transition-colors text-lg w-fit btn-bounce" href="comidas.html">
@@ -84,8 +84,8 @@
         </article>
       </section>
     </main>
-    <footer class="bg-sakura dark:bg-dark-header text-tori dark:text-white mt-12 shadow-inner animate-fadeIn">
-      <div class="w-full flex flex-row justify-between items-center text-sm p-4">
+    <footer class="bg-sakura dark:bg-dark-header text-tori dark:text-white mt-12 shadow-inner animate-fadeIn text-base">
+      <div class="w-full flex flex-row justify-between items-center p-2">
         <a href="https://github.com/JosanglDev" class="transition-colors font-semibold underline-anim" target="_blank" rel="noopener">GitHub</a>
         <p class="font-light mb-0 mx-auto">&copy; JosanglDev</p>
         <a href="https://www.linkedin.com/in/jos%C3%A9-antonio-garc%C3%ADa-l%C3%B3pez-4ba263347/" class="transition-colors font-semibold underline-anim" target="_blank" rel="noopener">LinkedIn</a>
