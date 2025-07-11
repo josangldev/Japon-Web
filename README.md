@@ -9,7 +9,7 @@ Este proyecto es una web estática, visualmente atractiva y responsive, desarrol
 
 ## 📸 Capturas de pantalla
 
-> *(Agrega aquí imágenes de tu web, por ejemplo: `docs/screenshot-home.png`)*
+
 
 ---
 
