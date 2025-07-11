@@ -1,6 +1,5 @@
 # 🇯🇵 Japón - Festividades y Gastronomía
-
-Descubre la riqueza cultural de Japón a través de sus festivales y su gastronomía.  
+  
 Este proyecto es una web estática, visualmente atractiva y responsive, desarrollada con **Vite**, **TailwindCSS** y desplegada en **Vercel**.
 
 [🌐 Ver sitio en producción](https://japon-web.vercel.app/)
@@ -9,13 +8,13 @@ Este proyecto es una web estática, visualmente atractiva y responsive, desarrol
 
 ## 📸 Capturas de pantalla
 
-> *(Agrega aquí imágenes de tu web, por ejemplo: `docs/screenshot-home.png`)*
+![Captura de pantalla de la página principal](docs/screenshot-home.png)
 
 ---
 
 ## 🗂️ Estructura y contenido
 
-- **Página principal:** Introducción a la temática, enlaces destacados a festivales y gastronomía.
+- **Página principal:** Introducción a la temática, festivales y gastronomía.
 - **Eventos:** Explicación de los festivales tradicionales más importantes de Japón, con imágenes optimizadas para cada dispositivo.
 - **Comidas:** Recorrido por los platos más emblemáticos de la cocina japonesa, con descripciones, curiosidades y fotografías.
 - **Sobre mí:** Breve presentación del autor y propósito del proyecto.
@@ -24,14 +23,13 @@ Este proyecto es una web estática, visualmente atractiva y responsive, desarrol
 
 ## 🚀 Tecnologías y herramientas
 
-- [Vite](https://vitejs.dev/) — Bundler ultrarrápido para desarrollo moderno.
-- [TailwindCSS](https://tailwindcss.com/) — Framework de utilidades CSS para un diseño ágil y personalizable.
+- **Vite** — Bundler ultrarrápido para desarrollo moderno.
+- **TailwindCSS** — Framework de utilidades CSS para un diseño ágil y personalizable.
 - **HTML5** y **JavaScript** moderno para la lógica de interacción, animaciones y funcionalidades del sitio.
 - **Fuentes personalizadas:** Poppins en varios grosores.
 - **Imágenes optimizadas:** `.webp` para mejor rendimiento y adaptadas a móvil, tablet y desktop.
 - **Modo oscuro:** Conmutador de tema y persistencia en localStorage.
 - **Animaciones:** Aparición suave de secciones y menú responsive animado.
-- **Inteligencia Artificial:** Uso de IA para optimización de procesos, mejora de la productividad personal y refactorización de código.
 
 ---
 
@@ -87,7 +85,7 @@ Este proyecto es una web estática, visualmente atractiva y responsive, desarrol
 
 ---
 
-## 🏗️ Build y despliegue
+## Build y despliegue
 
 1. **Genera la versión de producción:**
    ```bash
@@ -116,7 +114,7 @@ Este proyecto es una web estática, visualmente atractiva y responsive, desarrol
 ## 👤 Autor
 
 **José Antonio García López**  
-Desarrollador Frontend apasionado por la cultura japonesa y el diseño web.
+Desarrollador Frontend junior.
 
 - [GitHub](https://github.com/JosanglDev)
 - [LinkedIn](https://www.linkedin.com/in/jos%C3%A9-antonio-garc%C3%ADa-l%C3%B3pez-4ba263347/)
