@@ -38,7 +38,180 @@
         </nav>
       </div>
     </header>
-
+    <main class="container mx-auto p-4 md:p-8 flex flex-col gap-10 grow">
+      <h2 class="section-title animate-fadeIn text-2xl md:text-3xl font-bold text-tori mb-2 mt-2 dark:text-tori">Comidas más tradicionales y famosas de Japón</h2>
+      <div class="space-y-10">
+        <article class="content-article opacity-0">
+          <picture>
+            <source srcset="src/assets/images/comidas/sushi-desktop.webp" media="(min-width: 1024px)">
+            <source srcset="src/assets/images/comidas/sushi-tablet.webp" media="(min-width: 768px)">
+            <img src="src/assets/images/comidas/sushi-mobile.webp" alt="Variedad de sushi servido en una tabla de madera" class="article-img animate-fadeIn" loading="lazy" />
+          </picture>
+          <h3 class="subtitle text-2xl md:text-3xl font-bold text-tori mb-2 mt-2 dark:text-tori text-center">Sushi (寿司)</h3>
+          <hr class="hr-strong" />
+          <p class="main-paragraph mb-2 text-sm sm:text-base md:text-lg"><strong>Origen:</strong> Periodo Edo (siglo XIX, aunque sus raíces son más antiguas)</p>
+          <hr class="hr-soft" />
+          <p class="main-paragraph mb-2 text-sm sm:text-base md:text-lg">El sushi es probablemente el plato japonés más conocido en el mundo. Consiste en arroz avinagrado acompañado de pescado crudo, mariscos, vegetales o huevo, y a veces envuelto en alga nori. Existen muchas variedades, como nigiri, maki, temaki y oshi. El sushi moderno nació en Edo (actual Tokio) como comida rápida para los trabajadores. Hoy es símbolo de elegancia y tradición, y se disfruta tanto en restaurantes de lujo como en puestos callejeros.</p>
+          <hr class="hr-soft" />
+          <p class="main-paragraph mb-2 text-sm sm:text-base md:text-lg"><strong>Método de preparación:</strong> Se cocina arroz especial para sushi y se mezcla con vinagre, azúcar y sal. Se corta el pescado o los ingredientes en láminas y se moldean junto al arroz en diferentes formas. Se sirve acompañado de wasabi, salsa de soja y jengibre encurtido.</p>
+          <hr class="hr-soft" />
+          <p class="main-paragraph mb-2 text-sm sm:text-base md:text-lg"><strong>Curiosidad:</strong> El sushi se come tradicionalmente con las manos y en un solo bocado. El wasabi y la salsa de soja deben usarse con moderación para no ocultar el sabor del pescado.</p>
+        </article>
+        <hr />
+        <article class="content-article opacity-0">
+          <picture>
+            <source srcset="src/assets/images/comidas/ramen-desktop.webp" media="(min-width: 1024px)">
+            <source srcset="src/assets/images/comidas/ramen-tablet.webp" media="(min-width: 768px)">
+            <img src="src/assets/images/comidas/ramen-mobile.webp" alt="Bol de ramen caliente con cerdo, huevo y fideos" class="article-img animate-fadeIn" loading="lazy" />
+          </picture>
+          <h3 class="subtitle text-2xl md:text-3xl font-bold text-tori mb-2 mt-2 dark:text-tori text-center">Ramen (ラーメン)</h3>
+          <hr class="border-tori/60 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Origen:</strong> Finales del siglo XIX, importado de China y adaptado en Japón</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2">El ramen es una sopa de fideos de trigo servida en un caldo sabroso, que puede ser de miso, salsa de soja, sal o cerdo (tonkotsu). Se acompaña de ingredientes como cerdo asado (chashu), huevo marinado, alga nori, cebollín y brotes de bambú. Cada región de Japón tiene su propio estilo de ramen, como el Sapporo ramen (miso) o el Hakata ramen (tonkotsu).</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Método de preparación:</strong> Se prepara un caldo base (de pollo, cerdo, miso, etc.) que puede llevar varias horas. Se cuecen los fideos aparte y se sirven en el caldo caliente junto con los ingredientes elegidos, decorando con cebollín y alga nori.</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Curiosidad:</strong> En Japón es común sorber los fideos ruidosamente, ya que se considera una señal de disfrute y ayuda a enfriar la sopa.</p>
+        </article>
+        <hr />
+        <article class="content-article opacity-0">
+          <picture>
+            <source srcset="src/assets/images/comidas/tempura-desktop.webp" media="(min-width: 1024px)">
+            <source srcset="src/assets/images/comidas/tempura-tablet.webp" media="(min-width: 768px)">
+            <img src="src/assets/images/comidas/tempura-mobile.webp" alt="Plato de tempura crujiente con gambas y verduras" class="article-img animate-fadeIn" loading="lazy" />
+          </picture>
+          <h3 class="subtitle text-2xl md:text-3xl font-bold text-tori mb-2 mt-2 dark:text-tori text-center">Tempura (天ぷら)</h3>
+          <hr class="border-tori/60 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Origen:</strong> Siglo XVI, introducido por misioneros portugueses</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2">La tempura consiste en mariscos, pescados o verduras rebozados en una masa ligera y fritos en aceite. El secreto está en la textura crujiente y ligera del rebozado. Se sirve con salsa tentsuyu y rábano rallado.</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Método de preparación:</strong> Se prepara una masa ligera con harina, huevo y agua muy fría. Los ingredientes se sumergen en la masa y se fríen en aceite caliente hasta que estén dorados y crujientes. Se escurren y se sirven inmediatamente.</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Curiosidad:</strong> El nombre "tempura" proviene del latín "tempora", refiriéndose a los días de ayuno en los que los misioneros portugueses no comían carne.</p>
+        </article>
+        <hr />
+        <article class="content-article opacity-0">
+          <picture>
+            <source srcset="src/assets/images/comidas/sashimi-desktop.webp" media="(min-width: 1024px)">
+            <source srcset="src/assets/images/comidas/sashimi-tablet.webp" media="(min-width: 768px)">
+            <img src="src/assets/images/comidas/sashimi-mobile.webp" alt="Sashimi fresco de atún y salmón servido con wasabi" class="article-img animate-fadeIn" loading="lazy" />
+          </picture>
+          <h3 class="subtitle text-2xl md:text-3xl font-bold text-tori mb-2 mt-2 dark:text-tori text-center">Sashimi (刺身)</h3>
+          <hr class="border-tori/60 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Origen:</strong> Periodo Muromachi (siglo XIV-XVI)</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2">El sashimi es pescado o marisco crudo cortado en finas láminas y servido sin arroz. Se acompaña de salsa de soja, wasabi y jengibre encurtido. La frescura y calidad del pescado son fundamentales. Es un plato que resalta la pureza y el sabor natural de los ingredientes.</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Método de preparación:</strong> Se selecciona pescado o marisco muy fresco, se limpia y se corta en láminas finas con un cuchillo especial. Se sirve decorado con rábano daikon rallado y acompañado de salsa de soja y wasabi.</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Curiosidad:</strong> El cuchillo utilizado para cortar sashimi, llamado "yanagiba", es extremadamente afilado y requiere gran destreza.</p>
+        </article>
+        <hr />
+        <article class="content-article opacity-0">
+          <picture>
+            <source srcset="src/assets/images/comidas/okonomiyaki-desktop.webp" media="(min-width: 1024px)">
+            <source srcset="src/assets/images/comidas/okonomiyaki-tablet.webp" media="(min-width: 768px)">
+            <img src="src/assets/images/comidas/okonomiyaki-mobile.webp" alt="Okonomiyaki cocinándose en una plancha caliente" class="article-img animate-fadeIn" loading="lazy" />
+          </picture>
+          <h3 class="subtitle text-2xl md:text-3xl font-bold text-tori mb-2 mt-2 dark:text-tori text-center">Okonomiyaki (お好み焼き)</h3>
+          <hr class="border-tori/60 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Origen:</strong> Siglo XX, popularizado tras la Segunda Guerra Mundial</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2">El okonomiyaki es una especie de "tortilla" o "pizza" japonesa hecha con una masa de harina, huevo, repollo y otros ingredientes al gusto, como carne, mariscos o queso. Se cocina en una plancha y se cubre con salsa okonomiyaki, mayonesa, alga aonori y copos de bonito seco (katsuobushi). Hay variantes regionales, siendo las más famosas las de Osaka y Hiroshima.</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Método de preparación:</strong> Se mezcla harina, huevo, agua y repollo picado, añadiendo los ingredientes deseados. Se vierte la mezcla en una plancha caliente y se cocina por ambos lados. Se decora con salsa, mayonesa y toppings al gusto.</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Curiosidad:</strong> En Hiroshima, los ingredientes se colocan en capas y se añade fideos yakisoba, creando una versión única y abundante.</p>
+        </article>
+        <hr />
+        <article class="content-article opacity-0">
+          <picture>
+            <source srcset="src/assets/images/comidas/tako-desktop.webp" media="(min-width: 1024px)">
+            <source srcset="src/assets/images/comidas/tako-tablet.webp" media="(min-width: 768px)">
+            <img src="src/assets/images/comidas/tako-mobile.webp" alt="Bolitas de takoyaki cubiertas con salsa y katsuobushi" class="article-img animate-fadeIn" loading="lazy" />
+          </picture>
+          <h3 class="subtitle text-2xl md:text-3xl font-bold text-tori mb-2 mt-2 dark:text-tori text-center">Takoyaki (たこ焼き)</h3>
+          <hr class="border-tori/60 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Origen:</strong> Osaka, años 30 del siglo XX</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2">El takoyaki son bolitas de masa rellenas de trozos de pulpo, cebolla y jengibre encurtido, cocinadas en una plancha especial. Se sirven cubiertas de salsa takoyaki, mayonesa, alga aonori y copos de bonito seco. Es una comida callejera muy popular en festivales y mercados.</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Método de preparación:</strong> Se prepara una masa líquida de harina, huevo y caldo. Se vierte en una plancha especial con huecos redondos, se añade el pulpo y otros ingredientes, y se gira con palillos hasta que las bolitas estén doradas y crujientes.</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Curiosidad:</strong> El takoyaki se come muy caliente y es famoso por quemar la boca de los impacientes.</p>
+        </article>
+        <hr />
+        <article class="content-article opacity-0">
+          <picture>
+            <source srcset="src/assets/images/comidas/udon-desktop.webp" media="(min-width: 1024px)">
+            <source srcset="src/assets/images/comidas/udon-tablet.webp" media="(min-width: 768px)">
+            <img src="src/assets/images/comidas/udon-mobile.webp" alt="Bol de sopa de fideos udon calientes" class="article-img animate-fadeIn" loading="lazy" />
+          </picture>
+          <h3 class="subtitle text-2xl md:text-3xl font-bold text-tori mb-2 mt-2 dark:text-tori text-center">Udon (うどん)</h3>
+          <hr class="border-tori/60 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Origen:</strong> Siglo IX, con influencias chinas</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2">El udon son fideos gruesos de trigo que se sirven en un caldo suave, generalmente de salsa de soja y dashi. Se pueden acompañar de tempura, cebollín, tofu frito (aburaage) o huevo. Hay muchas variantes regionales, como el Sanuki udon de Kagawa.</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Método de preparación:</strong> Se amasa harina de trigo con agua y sal, se estira y se corta en fideos gruesos. Se cuecen en agua hirviendo y se sirven en un caldo caliente con los acompañamientos elegidos.</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Curiosidad:</strong> En la región de Kagawa, conocida como la "prefectura del udon", existen rutas turísticas dedicadas exclusivamente a probar diferentes tipos de udon.</p>
+        </article>
+        <hr />
+        <article class="content-article opacity-0">
+          <picture>
+            <source srcset="src/assets/images/comidas/mochi-desktop.webp" media="(min-width: 1024px)">
+            <source srcset="src/assets/images/comidas/mochi-tablet.webp" media="(min-width: 768px)">
+            <img src="src/assets/images/comidas/mochi-mobile.webp" alt="Mochi de diferentes colores y sabores" class="article-img animate-fadeIn" loading="lazy" />
+          </picture>
+          <h3 class="subtitle text-2xl md:text-3xl font-bold text-tori mb-2 mt-2 dark:text-tori text-center">Mochi (餅)</h3>
+          <hr class="border-tori/60 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Origen:</strong> Periodo Jomon (prehistoria japonesa), tradicionalizado en el periodo Heian</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2">El mochi es un pastelito de arroz glutinoso machacado hasta obtener una textura elástica. Se consume durante celebraciones como el Año Nuevo y en festivales. Puede estar relleno de pasta de judía roja (anko), helado u otros ingredientes dulces o salados.</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Método de preparación:</strong> Se cuece arroz glutinoso y se machaca en un mortero especial (usu) hasta formar una masa elástica. Se moldea en pequeñas porciones y se rellena o decora al gusto.</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Curiosidad:</strong> El mochitsuki, la ceremonia de elaboración del mochi, es todo un espectáculo tradicional donde varias personas golpean el arroz al ritmo de cánticos.</p>
+        </article>
+        <hr />
+        <article class="content-article opacity-0">
+          <picture>
+            <source srcset="src/assets/images/comidas/tonkatsu-desktop.webp" media="(min-width: 1024px)">
+            <source srcset="src/assets/images/comidas/tonkatsu-tablet.webp" media="(min-width: 768px)">
+            <img src="src/assets/images/comidas/tonkatsu-mobile.webp" alt="Tonkatsu cortado en tiras servido con col rallada" class="article-img animate-fadeIn" loading="lazy" />
+          </picture>
+          <h3 class="subtitle text-2xl md:text-3xl font-bold text-tori mb-2 mt-2 dark:text-tori text-center">Tonkatsu (豚カツ)</h3>
+          <hr class="border-tori/60 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Origen:</strong> Finales del siglo XIX, inspirado en la cocina occidental (yōshoku)</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2">El tonkatsu es una chuleta de cerdo empanada y frita, crujiente por fuera y jugosa por dentro. Se sirve cortada en tiras, acompañada de col rallada, arroz, sopa de miso y salsa tonkatsu (una salsa espesa y dulce).</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Método de preparación:</strong> Se sazona la chuleta de cerdo, se pasa por harina, huevo batido y panko (pan rallado japonés), y se fríe en abundante aceite caliente hasta que esté dorada. Se escurre y se corta en tiras antes de servir.</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Curiosidad:</strong> El tonkatsu es tan popular que existen restaurantes especializados llamados "tonkatsu-ya" y versiones con pollo (chicken katsu) o gambas (ebi katsu).</p>
+        </article>
+        <hr />
+        <article class="content-article opacity-0">
+          <picture>
+            <source srcset="src/assets/images/comidas/katsudon-desktop.webp" media="(min-width: 1024px)">
+            <source srcset="src/assets/images/comidas/katsudon-tablet.webp" media="(min-width: 768px)">
+            <img src="src/assets/images/comidas/katsudon-mobile.webp" alt="Bol de arroz con katsudon, huevo y cebolla" class="article-img animate-fadeIn" loading="lazy" />
+          </picture>
+          <h3 class="subtitle text-2xl md:text-3xl font-bold text-tori mb-2 mt-2 dark:text-tori text-center">Katsudon (カツ丼)</h3>
+          <hr class="border-tori/60 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Origen:</strong> Principios del siglo XX</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2">El katsudon es un bol de arroz cubierto con una chuleta de cerdo empanada (tonkatsu), huevo y cebolla cocidos en una salsa dulce de soja y mirin. Es un plato reconfortante y muy popular en todo Japón.</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Método de preparación:</strong> Se prepara un tonkatsu y se corta en tiras. En una sartén se cocina cebolla en salsa de soja, mirin y dashi, se añade el tonkatsu y se vierte huevo batido por encima. Se cocina hasta que el huevo cuaje y se sirve sobre arroz caliente.</p>
+          <hr class="border-tori/30 mb-2" />
+          <p class="text-gray-700 dark:text-white leading-relaxed text-lg mb-2"><strong>Curiosidad:</strong> El katsudon es famoso entre los estudiantes, quienes lo comen antes de los exámenes porque "katsu" significa "ganar" en japonés, simbolizando el deseo de éxito.</p>
+        </article>
+      </div>
+    </main>
     <footer class="bg-sakura dark:bg-dark-header text-tori dark:text-white mt-12 shadow-inner animate-fadeIn text-base">
       <div class="w-full flex flex-row justify-between items-center p-2">
         <a href="https://github.com/JosanglDev" class="transition-colors font-semibold underline-anim" target="_blank" rel="noopener">GitHub</a>
