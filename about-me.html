@@ -38,7 +38,22 @@
         </nav>
       </div>
     </header>
-
+    <main class="container mx-auto p-4 md:p-8 flex flex-col gap-10 grow">
+      <section class="content-article bg-white/90 dark:bg-gray-800/90 rounded-2xl shadow-2xl border border-dorado dark:border-dark-header overflow-hidden flex flex-col items-center p-8 gap-8 animate-fadeIn">
+        <picture>
+          <source srcset="src/assets/images/perfil-desktop.webp" media="(min-width: 1024px)">
+          <source srcset="src/assets/images/perfil-tablet.webp" media="(min-width: 768px)">
+          <img src="src/assets/images/perfil-mobile.webp" alt="Foto de perfil del autor" class="w-40 h-40 md:w-56 md:h-56 object-cover rounded-full shadow-md mb-4 article-img animate-fadeIn" loading="lazy" />
+        </picture>
+        <div class="w-full flex flex-col items-center">
+          <h2 class="section-title text-2xl md:text-3xl font-bold text-tori mb-2 mt-2 dark:text-tori text-center animate-fadeIn">Sobre mí</h2>
+          <hr class="hr-center-lg" />
+          <p class="main-paragraph mb-2 text-sm sm:text-base md:text-lg text-center">¡Hola! Soy JosanglDev. Este sitio web es un proyecto personal donde comparto información sobre Japón, sus festivales y su increíble comida. Mi objetivo es acercar un poquito de Japón al que, como yo, sienten fascinación por este país.<br><br>Además, este proyecto es una oportunidad para poner en práctica mis habilidades en desarrollo frontend y experimentar con <strong>Tailwind CSS</strong>, mejorando mis conocimientos en diseño.</p>
+          <hr class="hr-center-lg" />
+          <p class="main-paragraph mb-2 text-sm sm:text-base md:text-lg text-center">Si tienes sugerencias, dudas o simplemente quieres compartir tu experiencia, ¡no dudes en contactarme!</p>
+        </div>
+      </section>
+    </main>
     <footer class="bg-sakura dark:bg-dark-header text-tori dark:text-white mt-12 shadow-inner animate-fadeIn text-base">
       <div class="w-full flex flex-row justify-between items-center p-2">
         <a href="https://github.com/JosanglDev" class="transition-colors font-semibold underline-anim" target="_blank" rel="noopener">GitHub</a>
