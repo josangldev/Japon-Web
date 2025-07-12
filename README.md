@@ -1,4 +1,4 @@
-# 🇯🇵 Japón - Festividades y Gastronomía
+# Japón - Festividades y Gastronomía
 
 [![Japón Web](https://img.shields.io/badge/Japón-Festividades%20y%20Gastronomía-red)](https://github.com/josangldev/Japon-Web)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
