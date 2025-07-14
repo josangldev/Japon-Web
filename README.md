@@ -1,4 +1,11 @@
-# 🇯🇵 Japón - Festividades y Gastronomía
+# Japón - Festividades y Gastronomía
+
+[![Japón Web](https://img.shields.io/badge/Japón-Festividades%20y%20Gastronomía-red)](https://github.com/josangldev/Japon-Web)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Utility%20First-06B6D4)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-Build%20Tool-purple)](https://vitejs.dev/)
+[![AI-Assisted](https://img.shields.io/badge/AI-Assisted%20Development-orange)](https://openai.com/)
+
   
 Este proyecto es una web estática, visualmente atractiva y responsive, desarrollada con **Vite**, **TailwindCSS** y desplegada en **Vercel**.
 
