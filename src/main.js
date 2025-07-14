@@ -1,4 +1,3 @@
-// Importa los estilos principales de la aplicación
 import "./index.css";
 
 // Espera a que el DOM esté completamente cargado antes de ejecutar el código
